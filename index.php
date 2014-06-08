@@ -109,8 +109,8 @@
 	<button id="saveSet" data-bind="click: saveSet">Export to JSON</button>
 </div>
 <div class="footer">
-	Built by <a href="http://acceptableice.com"> Jake Roussel</a> (<a class="thick" href="http://twitter.com/acceptableice">@AcceptableIce</a>). 
-	<span class="footer-small">Cards Against Humanity&#0153; is a trademark of Cards Against Humanity, LLC, and is in no way affiliated with this site or its contents.</span>
+	Built by <a href="http://maybreak.com"> May Roussel</a> (<a class="thick" href="http://twitter.com/corvimae">@Corvimae</a>). 
+	<span class="footer-small">Cards Against Humanity&#0153; is a trademark of Cards Against Humanity, LLC, and is in no way affiliated with this site or its contents. <a class="colored" href="https://github.com/Corvimae/ConstructAdditionalHumanity">View the source on GitHub.</a></span>
 	
 </div>
 <script src="js/jquery-2.1.0.js"></script>
