@@ -1,0 +1,462 @@
+body {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 32px;
+	padding: 0 0;
+	margin: 0 0;
+	min-width: 1350px;
+}
+
+.header {
+	height: 350px;
+	background-color: #303030;
+	margin: 0 0;
+	overflow-y: hidden;
+	position: relative;
+}
+
+#headerCard2 {
+	-webkit-transform: rotate(-15deg);
+	transform: rotate(-15deg);
+	z-index: 0;
+	right: 400px;
+}
+
+.main-title {
+	color: #fff;
+	margin-top: 40px;
+	margin-left: 150px;
+	font-size: 2.0em;
+	font-weight	: 800;
+	line-height: 55px;
+	width: 400px;	
+	display: inline-block;
+}
+
+.main-subtitle {
+	font-size: 0.8em;
+	font-weight: 800;
+	color: #fff;
+	width: 400px;
+	left: 150px;
+	top: 20px;
+	position: relative;
+	z-index: 2;
+}
+
+.form-row {
+	margin-left: 150px;
+	margin-bottom: 20px;
+}
+
+.main-data {
+	padding-top: 20px;
+	background-color: #cacaca;
+	padding-bottom: 10px;
+	color: 000;
+}
+
+.main-data p {
+	margin-left: 150px;
+	font-size: 0.5em;
+	font-weight: 800;
+}
+
+.form-label {
+	font-size: 1.0em;
+	font-weight: 800;
+	margin-right: 40px;
+	width: 200px;
+	display: inline-block;
+}
+
+.img-prev {
+	background-color: #b4b2b2;
+	width: 64px;
+	height: 51px;
+	font-size: 0.5em;
+	font-weight: 800;
+	color: #404040;
+	text-align: center;
+	display: inline-block;
+	padding-top: 13px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	
+}
+
+input[type=text] {
+	width: 600px;
+	font-size: 1.0em;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: 800;
+	border: none;
+	border-bottom: 1px solid #909090;
+	background-color: transparent;
+}
+
+input[type=text]:focus {
+	outline: none;
+	border-bottom: 2px solid #85caff;
+
+}
+
+.setList {
+	min-height: 800px;
+	background-color: #aaaaaa;
+	overflow-y: auto;
+}
+
+.setList h2 {
+	margin-left: 150px;
+	color: #000;
+	margin-bottom: 0px;
+}
+
+.cardListing {
+	padding: 40px 150px;
+}
+
+.cardBox {
+	width: 140px;
+	height: 200px;
+	background-color: #000;
+	border-radius: 3px;
+	display: inline-block;
+	margin-left: 20px;
+	position: relative;
+	vertical-align: top;
+	float: left;
+	color: #fff;
+	margin-bottom: 20px;
+}
+
+.cardTitle {
+	display: relative;
+	font-size: 15px;
+	padding: 10px;
+	color: inherit;
+	font-weight: 800;
+}
+
+.baseSetIcon {
+	width: 21px;
+	height: 14px;
+	background-size: contain;
+	background-image: url('../templates/png/cahSetBaseBlack.png');
+	position: absolute;
+	left: 10px;
+	bottom: 15px;
+}
+
+.white .baseSetIcon {
+	background-image: url('../templates/png/cahSetBaseWhite.png');
+}
+
+.cardSetName {
+	font-size: 6px;
+	font-weight: 800;
+	color: inherit;
+	position: absolute;
+	left: 35px;
+	bottom: 17px;
+}
+
+.setIcon {
+	-webkit-transform: rotate(20deg);
+	transform: rotate(20deg);
+	background-size: contain;
+	z-index: 4;
+	position: absolute;
+	bottom: 17px;
+	left: 20px;
+	height: 9px;
+	width: 9px;
+
+}
+
+.addCard {
+	height: 500px;
+	padding-left: 150px;
+}
+
+.addCard h2 {
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+}
+
+.addCard .cardBox {
+	width: 280px;
+	height: 400px;
+	margin-left: 0px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	border-radius: 6px;
+}
+
+.header .cardBox {
+	width: 280px;
+	height: 400px;
+	margin-left: 0px;
+	margin-bottom: 20px;
+	border-radius: 6px;
+	position: absolute;
+	top: 160px;
+	right: 140px;
+	-webkit-transform: rotate(15deg);
+	transform: rotate(15deg);
+}
+
+
+.cardBox.white {
+	background-color: #fff;
+	color: #000;
+}
+
+.addCard .cardBox.white {
+	border: 1px solid #ddd;
+
+}
+
+.addCard .cardTitle {
+	padding: 20px;
+	font-size: 30px;
+	background-color: transparent;
+	width: 240px;
+	border: none;
+	resize: none;
+	height: 300px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: inherit;
+}
+
+.header .cardTitle {
+	padding: 20px;
+	font-size: 30px;
+}
+.addCard .setIcon {
+	bottom: 34px;
+	left: 39px;
+	height: 18px;
+	width: 18px;
+}
+
+.addCard .cardTitle:focus {
+	outline: none;
+}
+
+.addCard .cardSetName, .header .cardSetName {
+	font-size: 12px;
+	left: 70px;
+	bottom: 34px;
+}
+
+.addCard .baseSetIcon, .header .baseSetIcon {
+	width: 42px;
+	height: 28px;
+	left: 20px;
+	bottom: 30px;
+}
+
+.addCardOptions {
+	margin-left: 20px;
+	display: inline-block;
+	max-width: 600px;
+	margin-top: 20px;
+}
+
+.addCardOptions .rowLabel {
+	font-weight: 800;
+}
+
+
+.addCardTips {
+	margin-left: 20px;
+	display: inline-block;
+	width: 600px;
+	margin-top: 20px;
+	vertical-align: top;
+}
+
+
+.addCardTips h4 {
+	font-size: 1.0em;
+	margin-bottom: 0px;	
+	margin-top: 0px;
+}
+
+.addCardTips ul {
+	font-size: 0.5em;
+}
+.addCardTips li {
+	margin-bottom: 10px;
+}
+
+.addCardOptions input[type=radio] {
+	display: none;
+}
+
+.addCardOptions input[type=radio]:checked+label {
+	background-color: #000;
+	color: #fff;
+}
+
+.addCardOptions label {
+	font-size: 0.8em;
+}
+
+.instructions {
+	position: absolute;
+	right: 20px;
+	bottom: 11px;	
+}
+
+.instRow {
+	width: 55px;
+	height: 22px;
+}
+.instName {
+	font-size: 0.3em;
+	font-weight: 800;
+	display: inline-block;
+	float: left;
+	margin-top: 5px;
+	text-align: right;
+	width: 33px;
+}
+
+.instAmt {
+	background-color: #fff;
+	width: 18px;
+	height: 18px;
+	border-radius: 50%;
+	color: #000;
+	text-align: center;	
+	display: inline-block;
+	top: 2px;
+	position: relative;
+	font-weight: 800;
+	font-size: 0.45em;
+	float: right;
+}
+
+.addCard .instructions, .header .instructions {
+	right: 40px;
+	bottom: 22px;
+}
+
+.addCard .instRow, .header .instRow {
+	width: 110px;
+	height: 44px;
+}
+
+.addCard .instName, .header .instName {
+	font-size: 0.6em;
+	margin-top: 10px;
+	width: 66px;
+}
+
+.addCard .instAmt, .header .instAmt {
+	width: 36px;
+	height: 36px;
+	top: 4px;
+	font-size: 0.9em;
+}
+
+
+
+button {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif-;
+	font-size: 1.0em;
+	border: none;
+	background-color: #d0d0d0;
+}
+
+button:active {
+	outline: none;
+	background-color: #eaeaea;
+}
+
+button:focus {
+	outline: none;
+}
+
+#submitCard {
+	margin-top: 20px;
+}
+
+.deleteCard {
+	color: #CC0000;
+	position: absolute;
+	z-index: 40;
+	top: 0px;
+	right: 5px;
+	font-size: 0.7em;
+	cursor: pointer;	
+	display: none;
+}
+
+.cardBox:hover .deleteCard {
+	display: inline-block;
+}
+
+.completeSet {
+	height: 150px;
+	margin-left: 150px;
+	position: relative;
+}
+
+.completeSet h2 {
+	margin-bottom: 0px;
+}
+.completeSet p {
+	font-size: 0.6em;
+}
+
+#exportSet {
+	position: absolute;
+	left: 390px;
+	top: 5px;
+	font-size: 1.2em;
+}
+
+#saveSet {
+	font-size: 1.2em;
+	position: absolute;
+	left: 600px;
+	top: 5px;
+}
+.footer {
+	height: 50px;
+	font-size: 0.6em;
+	padding-left: 150px;
+	clear: both;
+	background-color: #000;
+	color: #fff;
+	line-height: 45px;
+}
+
+.footer a {
+	color: #fff;
+	text-decoration: none;
+
+}
+
+.footer-small {
+	font-size: 0.5em;
+}
+
+.footer .thick {
+	font-weight: 800;
+}
+
+.imgRules {
+	display: inline-block;
+	font-size: 0.5em;
+	margin-left: 10px;
+}
+
+.complete-error {
+	margin-top: -10px;
+	color: #990000;
+}
+
